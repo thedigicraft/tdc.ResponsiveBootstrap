@@ -1,5 +1,5 @@
 # tdc.ResponsiveBootstrap
-Code base for our responsive with bootstrap series
+Code base for The Digital Craft's "Develop Responsive with Bootstrap" series
 ## Install
 Download and unzip.  Open ```index.html``` in a browser.
 ## Included examples
