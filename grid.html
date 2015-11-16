@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <title>Develop Responsive with Bootstrap - The Digital Craft</title>
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" >
+    
+    <!-- Example CSS (not needed for responsive utilities) -->
+    <link href="style.css">
+    
+  </head>
+  <body>
+    
+    <div class="container">
+
+      <header>
+        <h1>Develop Responsive with Bootstrap <small>The Digital Craft</small></h1>
+        <ul class="nav nav-tabs">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="breakpoints.html">Breakpoints</a></li>
+          <li class="active"><a href="grid.html">Grid</a></li>
+          <li><a href="hiding.html">Hiding</a></li>
+          <li><a href="showing.html">Showing</a></li>
+        </ul>        
+      </header>
+
+      <div class="row">
+        <div class="col-lg-12">
+          <span class="pull-right alert alert-info">Viewport Width:<span id="size"></span>px</span>
+          <h2>Grid </h2>
+          <p>Expanding on the breakpoint demo: we give each div instructions for each breakpoint. We have set each div to start at 3 column span while on a large screen.  After that, the column spans will vary based on the classes given to each div.</p>
+        </div>
+      </div>
+      
+      <div class="row" id="example">
+        <div class="col-lg-3 col-md-12 col-sm-3 col-xs-5">
+          <p><code>class="col-lg-3 col-md-12 col-sm-3 col-xs-5"</code></p>
+          <p>
+            <strong>3 column span:</strong><br> while greater than or equal to 1200px<br>
+            <strong>12 column span:</strong><br> between 992px and 1200px<br>
+            <strong>3 column span:</strong><br> between 768px and 992px<br>
+            <strong>5 column span:</strong><br> less than 768px
+          </p>
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-12 col-xs-8">
+          <p><code>class="col-lg-3 col-md-6 col-sm-12 col-xs-8"</code></p>
+          <p>
+            <strong>3 column span:</strong><br> while greater than or equal to 1200px<br>
+            <strong>6 column span:</strong><br> between 992px and 1200px<br>
+            <strong>12 column span:</strong><br> between 768px and 992px<br>
+            <strong>8 column span:</strong><br> less than 768px
+          </p>
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-3 col-xs-10">
+          <p><code>class="col-lg-3 col-md-6 col-sm-3 col-xs-10"</code></p>
+          <p>
+            <strong>3 column span:</strong><br> while greater than or equal to 1200px<br>
+            <strong>6 column span:</strong><br> between 992px and 1200px<br>
+            <strong>3 column span:</strong><br> between 768px and 992px<br>
+            <strong>10 column span:</strong><br> less than 768px
+          </p>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+          <p><code>class="col-lg-3 col-md-4 col-sm-6 col-xs-12"</code></p>
+          <p>
+            <strong>3 column span:</strong><br> while greater than or equal to 1200px<br>
+            <strong>4 column span:</strong><br> between 992px and 1200px<br>
+            <strong>6 column span:</strong><br> between 768px and 992px<br>
+            <strong>12 column span:</strong><br> less than 768px
+          </p>
+        </div>     
+      </div>
+      
+    </div>
+    
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js" integrity="sha512-K1qjQ+NcF2TYO/eI3M6v8EiNYZfA95pQumfvcVrTHtwQVDG+aHRqLi/ETn2uB+1JqwYqVG3LIvdm9lj6imS/pQ==" crossorigin="anonymous"></script>
+    <!-- Viewport Counter -->
+    <script src="example.js"></script>
+  </body>
+</html>

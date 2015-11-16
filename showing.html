@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <title>Develop Responsive with Bootstrap - The Digital Craft</title>
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" >
+    
+    <!-- Example CSS (not needed for responsive utilities) -->
+    <link href="style.css">
+    
+  </head>
+  <body>
+    
+    <div class="container">
+
+      <header>
+        <h1>Develop Responsive with Bootstrap <small>The Digital Craft</small></h1>
+        <ul class="nav nav-tabs">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="breakpoints.html">Breakpoints</a></li>
+          <li><a href="grid.html">Grid</a></li>
+          <li><a href="hiding.html">Hiding</a></li>
+          <li class="active"><a href="showing.html">Showing</a></li>
+        </ul>        
+      </header>
+
+      <div class="row">
+        <div class="col-lg-12">
+          <span class="pull-right alert alert-info">Viewport Width:<span id="size"></span>px</span>
+          <h2>Showing</h2>
+          <p>The divs below will appear at each of their breakpoints</p>
+        </div>
+      </div>
+      
+      <div id="example">
+        <div class="visible-lg">
+          <h3>Large</h3>
+          <p><code>class="visible-lg"</code></p>
+          <p>Will be visible while window is greater than or equal to 1200px</p>
+        </div>       
+        <div class="visible-md">
+          <h3>Medium</h3>
+          <p><code>class="visible-md"</code></p>
+          <p>Will be visible while window is between 992px and 1200px</p>
+        </div>
+        <div class="visible-sm">
+          <h3>Small</h3>
+          <p><code>class="visible-sm"</code></p>
+          <p>Will be visible while window is between 768px and 992px</p>
+        </div> 
+        <div class="visible-xs">
+          <h3>Extra Small</h3>
+          <p><code>class="visible-xs"</code></p>
+          <p>Will be visible while window is less than 768px</p>
+        </div>       
+      </div>
+      
+    </div>
+    
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js" integrity="sha512-K1qjQ+NcF2TYO/eI3M6v8EiNYZfA95pQumfvcVrTHtwQVDG+aHRqLi/ETn2uB+1JqwYqVG3LIvdm9lj6imS/pQ==" crossorigin="anonymous"></script>
+    <!-- Viewport Counter -->
+    <script src="example.js"></script>
+  </body>
+</html>
