@@ -5,7 +5,7 @@ Code base for The Digital Craft's "Develop Responsive with Bootstrap" series
 Download and unzip.  Open ```index.html``` in a browser.
 
 ### Live Demo
-Check out a live demo.  (Click here) [http://thedigitalcraft.com/projects/tdc.ResponsiveBootstrap/]
+Check out a live demo.  [Click here] (http://thedigitalcraft.com/projects/tdc.ResponsiveBootstrap/)
 
 ## Included examples
 We have included examples of the main responsive utilities in Twitter Bootstrap.
