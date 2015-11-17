@@ -1,6 +1,11 @@
 # tdc.ResponsiveBootstrap
 Code base for The Digital Craft's "Develop Responsive with Bootstrap" series
 
+## Video Series
+Watch our series on how to use these tools. Check out the video series here! [Develop Responsive with Bootstrap](https://www.youtube.com/playlist?list=PLAkMqlQoeMejz6QaEsNAfs2MM1K4QLXZH)
+
+<a target="_blank" href="https://www.youtube.com/playlist?list=PLAkMqlQoeMejz6QaEsNAfs2MM1K4QLXZH"><img src="http://thedigitalcraft.com/projects/tdc.ResponsiveBootstrap/cover.jpg"></a>
+
 ## Install
 Download and unzip.  Open ```index.html``` in a browser.
 
